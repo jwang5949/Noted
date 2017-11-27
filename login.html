@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Noted Application Login</Title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="login.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--makes the html look good on every page -->
+    
+        <style>
+        body {
+            text-align:center;
+        }
+    
+        #loginButton {
+            width: 15em;
+            border: 10px black;
+            border-radius: 10px;
+            font: serif;
+            font-size: 15px;
+        }
+        a {
+            display: block;
+            width: 100%;
+            line-height: 2em;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover {
+            color: red;
+        }
+        </style>
+        
+    </head>
+    <body>
+        <h1>Noted Application</h1>
+        <h3>Login</h3>
+        <div id="login-form">
+            <p>Username: <input class="text-input" id="emailaddress" type="text" placeholder="Enter Email Address..."></p>
+            <p>Password: <input class="text-input" id="password" type="text" placeholder="Enter password.."></p>
+            <input class="button" id="loginButton" type="submit" value="Login">
+        </div>
+        <div id="button"><a href="signup.html">Sign Up</a></div>
+        <script>
+        
+            //var email = prompt('Enter email address');
+            //var password = prompt('Enter password');
+ 
+            function functionofclicking() {
+                var loginButton=document.getElementById("login-button");
+              // code to obtain information from database
+            }
+        </script>
+    </body>
+</html>
